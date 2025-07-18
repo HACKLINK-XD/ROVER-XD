@@ -6,7 +6,8 @@
   "scripts": {
     "start": "pm2 start index.js --deep-monitoring --attach --name ROVER-XD",
     "stop": "pm2 stop ROVER-XD",
-    "restart": "pm2 restart ROVER-XD"
+    "restart": "pm2 restart ROVER-XD",
+    "test": "echo \"No tests configured.\" && exit 0"
   },
   "dependencies": {
     "@adiwajshing/keyed-db": "^0.2.4",
